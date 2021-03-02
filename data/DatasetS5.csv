@@ -1,0 +1,300 @@
+disease,sab
+kidney diseases,0.150808886
+chromosome disorders,0.340530866
+"diabetes mellitus, type 1",0.219149933
+cardiomegaly,0.3775536
+anemia,0.470873289
+prostatic diseases,0.168395418
+"liver cirrhosis, biliary",0.421689616
+bone diseases,0.135467722
+celiac disease,0.292814808
+"limb deformities, congenital",0.467544195
+urogenital abnormalities,0.334895792
+"cardiomyopathy, hypertrophic",0.700344735
+urologic neoplasms,0.290142505
+macular degeneration,0.261013105
+autoimmune diseases,0.126628131
+retinal diseases,0.287886699
+blood platelet disorders,0.612880092
+"leukemia, myeloid, acute",0.41680368
+arthritis,0.230940173
+"demyelinating autoimmune diseases, cns",0.273470978
+retinal dystrophies,0.378659488
+"brain diseases, metabolic, inborn",0.3107474
+amyotrophic lateral sclerosis,0.314854882
+body weight,0.48286431
+bronchial diseases,0.269542228
+"skin diseases, vascular",0.342047123
+nervous system diseases,0.099058327
+brain diseases,0.069847735
+"muscular disorders, atrophic",0.429995344
+spondylitis,0.370564074
+colitis,0.234471715
+colonic diseases,0.259213847
+lipid metabolism disorders,0.447907274
+rectal diseases,0.468706557
+"leukemia, b-cell",0.275677711
+"anemia, aplastic",0.696533808
+carcinoma,0.228573406
+orbital diseases,0.1780484
+retinitis pigmentosa,0.380511319
+dyssomnias,0.432335778
+"neoplasms, nerve tissue",0.306469642
+motor neuron disease,0.235248967
+spinal cord diseases,0.173762436
+esophageal diseases,0.390984436
+spondylarthropathies,0.370564074
+parkinson disease,0.27050298
+"diabetes mellitus, type 2",0.199096386
+"uveitis, anterior",0.390419774
+leprosy,0.526966831
+cardiovascular abnormalities,0.313084003
+dementia,0.27578736
+"leukemia, myeloid",0.379380215
+"anemia, hemolytic",0.53430855
+nervous system malformations,0.19005995
+central nervous system diseases,0.058479813
+"spastic paraplegia, hereditary",0.289746063
+respiratory hypersensitivity,0.310113816
+lymphoma,0.216412057
+mycobacterium infections,0.53510242
+"genital diseases, female",0.411363195
+otorhinolaryngologic diseases,0.308533959
+insulin resistance,0.336008807
+heart arrest,0.30248645
+"leukemia, lymphocytic, chronic, b-cell",0.272483266
+endocrine gland neoplasms,0.333648406
+intestinal diseases,0.174444416
+ankylosis,0.399454548
+joint diseases,0.221093061
+"neoplasms, neuroepithelial",0.397619276
+graves disease,0.1780484
+hyperinsulinism,0.336008807
+"genital neoplasms, female",0.49610031
+nutritional and metabolic diseases,0.121261318
+neurologic manifestations,0.083490211
+myocardial infarction,0.245769781
+"bone diseases, developmental",0.250011691
+intestinal neoplasms,0.444214533
+ectodermal dysplasia,0.449541347
+"congenital, hereditary, and neonatal diseases and abnormalities",0.13048956
+head and neck neoplasms,0.291920598
+hypersensitivity,0.286479038
+"amino acid metabolism, inborn errors",0.352793344
+epilepsy,0.395732656
+"neoplasms, connective and soft tissue",0.452431587
+"bone diseases, metabolic",0.272621392
+"metabolism, inborn errors",0.153902705
+bacterial infections,0.497566092
+movement disorders,0.244631147
+"carbohydrate metabolism, inborn errors",0.283442862
+"metal metabolism, inborn errors",0.330223165
+spinal diseases,0.388909553
+gastrointestinal diseases,0.162579648
+immune system diseases,0.110394632
+actinomycetales infections,0.53510242
+dna repair-deficiency disorders,0.687040432
+musculoskeletal abnormalities,0.386759754
+gastroenteritis,0.177633811
+malformations of cortical development,0.371869536
+hypothalamic diseases,0.499350077
+"death, sudden, cardiac",0.30248645
+urologic diseases,0.118370554
+stomatognathic diseases,0.269126664
+adrenal gland diseases,0.391480214
+behcet syndrome,0.390419774
+male urogenital diseases,0.105306364
+hemostatic disorders,0.439324715
+gout,0.229167724
+immunologic deficiency syndromes,0.420383208
+musculoskeletal diseases,0.097891566
+diabetes mellitus,0.115893201
+demyelinating diseases,0.260588756
+carotid artery diseases,0.127382256
+"skin diseases, papulosquamous",0.306077371
+lung diseases,0.185676477
+collagen diseases,0.472320262
+inflammatory bowel diseases,0.169536454
+"renal tubular transport, inborn errors",0.321514249
+adnexal diseases,0.360795114
+blood protein disorders,0.42562314
+glomerulonephritis,0.334328841
+tdp-43 proteinopathies,0.29431261
+dwarfism,0.285895965
+thyroid diseases,0.222503813
+skin abnormalities,0.422384256
+death,0.324349634
+asthma,0.30905537
+"brain diseases, metabolic",0.306628049
+malabsorption syndromes,0.292814808
+arterial occlusive diseases,0.239235969
+spinocerebellar ataxias,0.309709304
+"hypersensitivity, immediate",0.286479038
+albuminuria,0.133655856
+skin and connective tissue diseases,0.091767534
+pancreatic diseases,0.336085425
+"spondylitis, ankylosing",0.399454548
+intellectual disability,0.18155734
+cerebellar diseases,0.310454408
+endocrine system diseases,0.094711215
+"skin diseases, genetic",0.296963653
+sensation disorders,0.424376787
+aneurysm,0.404341504
+osteochondrodysplasias,0.398348919
+lymphoproliferative disorders,0.218448964
+"pathological conditions, anatomical",0.306337059
+"heredodegenerative disorders, nervous system",0.064308235
+female urogenital diseases,0.109832129
+multiple sclerosis,0.274858201
+keratosis,0.443734759
+osteoporosis,0.298515012
+rheumatic diseases,0.269635188
+"death, sudden",0.324349634
+glioma,0.426814074
+cerebrovascular disorders,0.178809603
+urogenital neoplasms,0.131827495
+coronary disease,0.243533127
+pigmentation disorders,0.433846667
+"lupus erythematosus, systemic",0.226956028
+"abnormalities, multiple",0.230190272
+"cardiomyopathy, hypertrophic, familial",0.700918466
+cerebellar ataxia,0.314417264
+skin diseases,0.144687517
+nevi and melanomas,0.316813098
+"arrhythmias, cardiac",0.383198315
+kidney neoplasms,0.315102849
+ovarian diseases,0.360795114
+neurobehavioral manifestations,0.169459039
+hypopigmentation,0.440183669
+tauopathies,0.290406182
+nephritis,0.350374208
+neuromuscular diseases,0.12003535
+cholestasis,0.366543095
+urination disorders,0.129526581
+spinocerebellar degenerations,0.295934461
+hemic and lymphatic diseases,0.134450007
+nutrition disorders,0.35412659
+"neoplastic syndromes, hereditary",0.49949711
+parkinsonian disorders,0.267082684
+"leukemia, lymphoid",0.319867755
+obesity,0.48286431
+disorders of sex development,0.417950487
+panuveitis,0.390419774
+hair diseases,0.27513521
+hematologic diseases,0.203697293
+signs and symptoms,0.140693577
+neuroendocrine tumors,0.371661604
+"pathological conditions, signs and symptoms",0.123701705
+gastrointestinal neoplasms,0.344184058
+breast diseases,0.411893818
+urological manifestations,0.133655856
+uveitis,0.390419774
+charcot-marie-tooth disease,0.405270252
+vascular diseases,0.120183904
+hemorrhagic disorders,0.504246624
+"lymphoma, non-hodgkin",0.224353581
+sleep disorders,0.432335778
+cranial nerve diseases,0.351380058
+"cholestasis, intrahepatic",0.366543095
+"cardiomyopathy, dilated",0.423891997
+neuroectodermal tumors,0.304465079
+"neoplasms, glandular and epithelial",0.19093486
+neoplasms by site,0.122732823
+"arthritis, rheumatoid",0.332507982
+glucose metabolism disorders,0.110738252
+ocular motility disorders,0.33476862
+bone marrow diseases,0.324954922
+mouth diseases,0.344681966
+hypotrichosis,0.304705489
+"neoplasms, germ cell and embryonal",0.26560118
+overweight,0.48286431
+gonadal disorders,0.314133593
+peripheral nervous system diseases,0.268721323
+coronary artery disease,0.283610491
+congenital abnormalities,0.085730794
+lysosomal storage diseases,0.455760455
+"eye diseases, hereditary",0.257467335
+precursor cell lymphoblastic leukemia-lymphoma,0.473547866
+muscular diseases,0.333337035
+metabolic diseases,0.116081559
+"mental retardation, x-linked",0.178075441
+vision disorders,0.461203982
+"heart defects, congenital",0.313288191
+neoplasms,0.092289739
+eye diseases,0.161581331
+adenocarcinoma,0.263006008
+bile duct diseases,0.348597621
+ovarian neoplasms,0.477562631
+varicose veins,0.284946619
+myocardial ischemia,0.219681938
+uveal diseases,0.325145715
+crohn disease,0.209983494
+lipidoses,0.48134265
+metabolic syndrome x,0.496295527
+overnutrition,0.48286431
+lung neoplasms,0.372079226
+cardiomyopathies,0.403729965
+psoriasis,0.306077371
+congenital disorders of glycosylation,0.388916506
+"carcinoma, renal cell",0.350404994
+polyneuropathies,0.278692417
+"genital diseases, male",0.164863981
+leukemia,0.265969076
+immunoproliferative disorders,0.25095128
+"blood coagulation disorders, inherited",0.689355247
+mitochondrial diseases,0.400605872
+myeloproliferative disorders,0.470437982
+spondylarthritis,0.370564074
+neurodegenerative diseases,0.034061809
+alzheimer disease,0.313922314
+goiter,0.172413073
+lymphatic diseases,0.188196442
+"genetic diseases, x-linked",0.14386244
+"lung diseases, obstructive",0.27861412
+digestive system neoplasms,0.301829162
+vasculitis,0.352408623
+liver diseases,0.290073427
+retinal degeneration,0.295718271
+"colitis, ulcerative",0.234471715
+hyperthyroidism,0.1780484
+proteostasis deficiencies,0.288916958
+autoimmune diseases of the nervous system,0.294696045
+biliary tract diseases,0.323152291
+respiratory tract neoplasms,0.372079226
+cardiovascular diseases,0.066427062
+"lipid metabolism, inborn errors",0.477032423
+"genital neoplasms, male",0.169591876
+neoplasms by histologic type,0.093446038
+virus diseases,0.34168422
+respiratory tract diseases,0.160120475
+basal ganglia diseases,0.267273808
+ataxia,0.314417264
+"neoplasms, connective tissue",0.472121081
+gram-positive bacterial infections,0.53510242
+pathologic processes,0.247901414
+blood coagulation disorders,0.669965345
+"purine-pyrimidine metabolism, inborn errors",0.21601862
+prostatic neoplasms,0.168395418
+sarcoma,0.569503797
+muscular dystrophies,0.405065108
+connective tissue diseases,0.12813058
+craniofacial abnormalities,0.444431587
+thoracic neoplasms,0.353416475
+peroxisomal disorders,0.826245893
+dysostoses,0.477241013
+arteriosclerosis,0.256485624
+"genetic diseases, inborn",0.118531412
+colorectal neoplasms,0.444214533
+female urogenital diseases and pregnancy complications,0.111096526
+dyskinesias,0.179280274
+heart diseases,0.09187132
+proteinuria,0.133655856
+"lysosomal storage diseases, nervous system",0.531142687
+"infant, newborn, diseases",0.374178385
+hereditary sensory and motor neuropathy,0.289716302
+breast neoplasms,0.426292052
+exophthalmos,0.1780484
+bacterial infections and mycoses,0.476597349
+stomatognathic system abnormalities,0.34101862
+digestive system diseases,0.153265287
+liver cirrhosis,0.436263314
