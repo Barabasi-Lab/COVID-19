@@ -134,7 +134,7 @@ def read_network(network_file):
             continue
         # The first two columns in the line will be interpreted as an
         # interaction gene1 <=> gene2
-        line_data   = line.strip().split('\t')
+        line_data   = line.strip().split(',')
         node1 = line_data[0]
         node2 = line_data[1]
         G.add_edge(node1,node2)

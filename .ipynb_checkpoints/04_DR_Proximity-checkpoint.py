@@ -1,7 +1,16 @@
+#######################################
+### Project: Network Medicine Framework for Identifying Drug Repurposing Opportunities for COVID-19.
+### Description: Pipeline for Proximity: P1-P3
+### Author: Xiao Gan
+### email: jack dot xiao dot gan at gmail dot com 
+### date: 1st March 2021
+#######################################
+
 import pandas as pd
 import networkx as nx
 import matplotlib.pyplot as plt
 import os
+import re
 
 import sys
 sys.path.append('./utils/')
@@ -74,6 +83,9 @@ def single_proximity(sample):
     network = sample [4]
     nsims = sample [5]
 
+    disease_save = disease_key.split("/")[1]
+    disease_save = re.sub(".csv$", "", disease_save)
+        
     # multiple proximity loop. Call each key combination from the two dictionaries
 
     nodes_from =  set(drug_targets[drug_key]) & set(network.nodes())
@@ -89,14 +101,15 @@ def single_proximity(sample):
 
     # write in file
     current_directory = os.getcwd()
-    final_directory = os.path.join(current_directory, r'Output_folder')
+    final_directory = os.path.join(current_directory, r'output/proximity/')
     if not os.path.exists(final_directory):
         os.makedirs(final_directory)
 
-    filename= drug_key +'_'+ disease_key+'.txt'
+
+    filename= drug_key +'_'+ disease_save+'.txt'
     with open(os.path.join(final_directory, filename), 'w') as f:
         #f.write(drug_key +'\t'+ disease_key +'\td='+ str(d) +'\tz=' + str(z) +'\t(mean, sd)='+ str((mean, sd))+'\n')
-        f.write(drug_key +'\t'+ disease_key +'\t'+ str(d) +'\t' + str(z) +'\t'+ str(mean) +'\t'+ str(sd)+'\n')
+        f.write(drug_key +'\t'+ disease_save +'\t'+ str(d) +'\t' + str(z) +'\t'+ str(mean) +'\t'+ str(sd)+'\n')
 
     return
 
@@ -119,11 +132,9 @@ nsims = int(args.nsims)
 ##print (args)
 
 # get disease genes
-##disease_gene_file = 'Tissue_EndoCardioEpithelium.csv'
-df = pd.read_csv(disease_gene_file,header=None)
-disease_gene_list0 = list(df[df.columns[0]])
-# convert to entrez id
-disease_gene_set = set(convert((disease_gene_list0),entry_from='Symbol',entry_to='GeneID'))
+df = pd.read_csv(disease_gene_file)
+disease_gene_set = set(df['EntrezID'].astype(str))
+
 print (('Done parsing %s disease genes')%len(disease_gene_set))
 
 # get drug targets

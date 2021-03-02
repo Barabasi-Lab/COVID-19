@@ -84,16 +84,16 @@ It is a `.csv` file with the ranking values of each model and the drug score. Th
 
 #### Input files and parameter
 
-1.  disease gene list a list of disease genes in symbol
-2.  drug target file a tab-delimited file with first entry being the drug, and the following entries being entrez IDs of targets
-3.  interactome file tab-delimited node pairs in their entrez ID. The 3rd column in the sample interactome is not being used
+1.  disease gene list: a list of disease genes in entrez ID
+2.  drug target file: a tab-delimited file with first entry being the drug, and the following entries being entrez IDs of targets
+3.  interactome file: tab-delimited node pairs in their entrez ID. The 3rd column in the sample interactome is not being used
 4.  -nsims specifies the number of randomizations in the proximity algorithm
 
 #### Running the code
 
-`> python 04_DR_Proximity.py -i_disease COVID19_genes.csv -i_drug drug_targets_test.txt -i_interactome interactome2019.tsv -nsims 100`
+`> python 04_DR_Proximity.py -i_disease data/DatasetS1.csv -i_drug data/drug_targets_test.txt -i_interactome data/DatasetS2.csv -nsims 1000`
 
--   Sample Output display: (Note the beginning (first four lines) of this output are from previous code and are not relevant, please pay no attention to them).
+-   Sample Output display: (Note the beginning (first four lines) of this output are imported from previous code and are not relevant, please pay no attention to them).
 
 <!-- -->
 
@@ -109,25 +109,25 @@ It is a `.csv` file with the ranking values of each model and the drug score. Th
     > done loading network:
     > network contains 18505 nodes and 327924 links
     number of samples: 1
-    drug=DBxxxxx, disease=COVID19_genes.csv
+    drug=DBxxxxx, disease=DatasetS1.csv
     Finished in 0.019384 hours
     Current time: 
     18:51:56
 
 #### Output files
 
-The output of the code are .txt files in the `output/proximity` folder. If the \``output/proximity` folder is not present, it will automatically be created. Each `.txt` file is named with drug-disease input pair, e.g. `DBxxxxx_COVID19_genes.csv.txt` in the toy example. The output file consists of six tab-delimited entries. The entries are:
+The output of the code are .txt files in the `output/proximity` folder. If the \``output/proximity` folder is not present, it will automatically be created. Each `.txt` file is named with drug-disease input pair, e.g. `<Drug_ID>_<Disease_genes_input_filename>.txt` in the toy example. The output file consists of six tab-delimited entries. The entries are (respectively):
 
 (1) drug,
 (2) disease file,
 (3) proximity distance, d,
 (4) proximity Z-score, z,
 (5) mean of proximity distance d in random simulation,
-(6) mean of proximity distance d in random simulation, respectively
+(6) standard deviation of proximity distance d in random simulation
 
 #### Notes [Fix names, add P3]
 
-1.  In the example `drug_targets_test.txt` file, we provide a made-up toy example drug for testing and demonstrating the code. The drug target data for each pipeline can be found in `drug_targets_P1.txt` `drug_targets_P2.txt`, and `drug_targets_P3.txt`.
+1.  In the example `drug_targets_test.txt` file, we provide a made-up toy example drug for testing and demonstrating the code. The drug target data for each pipeline can be found in `drug_targets_P1.txt` `drug_targets_P2.txt`, and `Dataset_S4.txt`.
 
 2.  computations with many drug-disease pairs are heavy. Parallel computing is recommended. This code has implementation of parallel computing, but it is not used in the demo above. Please check out the source code in `04_DR_Proximity.py`.
 
@@ -141,12 +141,3 @@ The code here uses the code published in：
 
 
 After the proximity code is run, you have to combine all `txt` files, they can be easily combined by `cat *.txt >> output.txt `.
-## Rank Aggregation
-
-### cRank
-
-### Dowdall
-
-### Borda
-
-### Average Rank

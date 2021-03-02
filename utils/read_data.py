@@ -124,7 +124,7 @@ def clinical_trials():
     path_cur = os.getcwd()
     #path_par = os.path.abspath(os.path.join(path_cur, os.pardir))
     path_par =  path_cur
-    df = pd.read_csv(path_par+'/data/covid19-clinical-trials-April.csv')
+    df = pd.read_excel(path_par+'/data/DatasetS10.xlsx',sheet_name = "DB")
     drugs = set(df['ID'].values)
     db_results = drugbank()
     drug2targets = db_results['drug2target']
