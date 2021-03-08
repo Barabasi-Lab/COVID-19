@@ -1,8 +1,5 @@
----
-title: "README"
-date: "3/1/2021"
-output: html_document
----
+# README
+3/1/2021
 
 Code used for the analysis of the paper:
 
